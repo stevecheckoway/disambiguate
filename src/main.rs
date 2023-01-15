@@ -23,7 +23,7 @@ fn colorize(line: &str) {
         if ch.is_uppercase() {
             print!("{}", ch.to_string().yellow());
         } else if ch.is_ascii_digit() {
-            print!("{}", ch.to_string().blue());
+            print!("{}", ch.to_string().bright_blue());
         } else if ch.is_ascii_punctuation() {
             print!("{}", ch.to_string().red());
         } else {
